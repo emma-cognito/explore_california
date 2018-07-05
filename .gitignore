@@ -1,0 +1,13 @@
+# comment 
+tempfile.txt
+.DS_Store
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9]
+assets/photoshop/
+assets/videos/
+!assets/videos/tour_*.mp4
+
+# Question: Would log/archive/access.log be ignored?
+# No as star means filenames and /archive/ is a directory.
